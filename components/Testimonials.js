@@ -62,6 +62,8 @@ export default function Testimonials() {
           {testimonials[current].type === 'text' ? (
             <>
               <Image
+                width={64}
+                height={64}
                 src={testimonials[current].image}
                 alt={testimonials[current].name}
                 className='w-16 h-16 rounded-full mx-auto mb-4 object-cover'
