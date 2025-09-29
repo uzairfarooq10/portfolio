@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 
 const testimonials = [
   {
@@ -60,7 +61,7 @@ export default function Testimonials() {
         >
           {testimonials[current].type === 'text' ? (
             <>
-              <img
+              <Image
                 src={testimonials[current].image}
                 alt={testimonials[current].name}
                 className='w-16 h-16 rounded-full mx-auto mb-4 object-cover'

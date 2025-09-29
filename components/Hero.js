@@ -11,7 +11,7 @@ export default function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <p className='text-sm text-indigo-600 font-semibold'>Hi, I&apos;m</p>
+        <p className='text-sm text-indigo-600 font-semibold'>Hi, I'm</p>
         <h1 className='mt-2 text-4xl md:text-5xl font-extrabold tracking-tight'>
           Uzair Farooq
         </h1>
